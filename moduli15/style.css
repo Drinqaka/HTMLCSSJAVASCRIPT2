@@ -25,7 +25,86 @@ div#div3{
     width: 250px;
     height: 250px;
     padding: 20px;
-    margin-top: 100px;
+    margin-top: 300px;
     top: 100px;
     right: 150px;
 }
+
+#parent{
+    position: relative;
+    border: 3px solid black;
+    width: 250px;
+    height: 250px;
+}
+
+#child{
+    position: absolute;
+    background-color: blue;
+    width: 100px;
+    height: 100px;
+    bottom: 100px;
+    right: 100px;
+}
+
+#horizontal ul{
+    list-style-type: none;
+    background-color: black;
+    overflow: hidden;
+    padding: 20px;
+}
+
+#horizontal ul li{
+    float: right;
+}
+
+#horizontal ul li a{
+    color: white;
+    padding: 50px;
+    text-decoration: none;
+}
+
+#horizontal ul li a:hover{
+    background-color: rgb(63, 63, 63);
+}
+
+nav ul li a{
+    margin-right: 20px;
+}
+
+img{
+    width: 30px;
+    height: 30px;
+}
+
+#vertical ul{
+    list-style-type: none;
+    background-color: black;
+    overflow: hidden;
+    padding: 20px;
+}
+
+#vertical ul li{
+    padding: 10px;
+}
+
+#vertical ul li a{
+    color: white;
+    padding: 10px;
+    text-decoration: none;
+}
+
+#vertical ul li a:hover{
+    background-color: rgb(63, 63, 63);
+}
+
+nav ul li a{
+    margin-right: 20px;
+}
+
+img{
+    width: 30px;
+    height: 30px;
+}
+
+
+
