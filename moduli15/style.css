@@ -1,4 +1,4 @@
-div#div1{
+/* div#div1{
     position:static;
     border: 3px solid black;
     width: 250px;
@@ -44,7 +44,7 @@ div#div3{
     height: 100px;
     bottom: 100px;
     right: 100px;
-}
+} */
 
 #horizontal ul{
     list-style-type: none;
@@ -69,11 +69,6 @@ div#div3{
 
 nav ul li a{
     margin-right: 20px;
-}
-
-img{
-    width: 30px;
-    height: 30px;
 }
 
 #vertical ul{
@@ -106,5 +101,70 @@ img{
     height: 30px;
 }
 
+#dropdown{
+    overflow: hidden;
+    background-color: blue;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+}
 
+#dropdown a{
+    float:left;
+    font-size: 16px;
+    color: white;
+    text-align: center;
+    text-decoration: none;
+    padding: 15px;
+    
+}
 
+#nav-dropdown{
+    float: left;
+    overflow: hidden;
+}
+
+#dropbtn{
+   font-size: 16px;
+   border: none;
+   outline: none;
+   color: white;
+   padding: 15px;
+   background-color: inherit;
+   font: inherit;
+}
+
+#dropdown a:hover, #nav-dropdown:hover{
+    background-color: rgb(63, 63, 63);
+}
+
+#drop-content{
+    display: none;
+    position: absolute;
+    background-color: beige;
+    width: 100%;
+    box-shadow: 10px black;
+}
+
+#column{
+   float: left;
+   width: 50%;
+   padding: 10px;
+   background-color: bisque;
+   height: 250px;
+}
+
+#column a{
+    float: none;
+    color: white;
+    padding: 15px;
+    text-decoration: none;
+    display: block;
+    text-align: left;
+}
+
+#nav-dropdown:hover #drop-content{
+    display: block;
+}
+
+#row:after{
+    display: table;
+}
