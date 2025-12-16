@@ -1,0 +1,55 @@
+.dropdown-content{
+    display:none;
+}
+
+.dropdown:hover .dropdown-content{
+    display: block;
+    background-color: aqua;
+    width: 150px;
+    padding: 15px;
+    box-shadow: 10px 10px 10px 10px gray;
+}
+
+.tooltip{
+    padding: 19px;
+    display: inline-block;
+    border: 2px dotted black;
+}
+
+.tooltip-text{
+    visibility: hidden;
+}
+
+.tooltip:hover .tooltip-text{
+    visibility: visible;
+    width: 100px;
+    background: black;
+    text-align: center;
+    color: white;
+    padding: 5px;
+    position: absolute;
+    top: 140px;
+    left: 5.85%;
+    margin-left: -60px;
+}
+
+#example1{
+    width: 150px;
+    height: 150px;
+    background-color: blue;
+    border-radius: 10px 30px;
+}
+
+#example2{
+    width: 150px;
+    height: 150px;
+    background-color: blue;
+    border-radius: 10px 5px 15px 20px;
+}
+
+#example3{
+    width: 150px;
+    height: 150px;
+    background-image:  url(img2.webp);
+    border-radius: 50%;
+}
