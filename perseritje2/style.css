@@ -4,9 +4,102 @@ body{
     color: white;
 }
 
-nav{
+nav ul li{
+    float : left;
+    padding: 20px;
+    text-decoration: none;
+
+}
+
+nav ul {
     font-family: Arial, Helvetica, sans-serif;
+    list-style-type: none;
     background: black;
+    color: white;
+    float: right;
+}
+
+nav a{
+    text-decoration: none;
     color: white;
 }
 
+
+
+div img{
+    width: 1900px ;
+    height: 100%;
+    height: 800px;
+}
+
+h2{
+    position: relative;
+    left: 550px;
+    bottom: 600px;
+    background-color: black;
+}
+
+#iphonea{
+    position: relative;
+    left: 650px;
+    bottom: 580px;
+    background-color: black;
+}
+
+#iphoneb{
+    position: relative;
+    left: 650px;
+    bottom: 560px;
+    background-color: black;
+}
+
+#iphonec{
+    position: relative;
+    left: 650px;
+    bottom: 540px;
+    background-color: black;
+}
+
+#more{
+    position: relative;
+    left: 650px;
+    bottom: 500px;
+    background-color: black;
+}
+
+#hi:hover{
+    background-color: red;
+}
+
+#hi{
+    padding: 20px;
+}
+
+#hello{
+    width: 75px;
+    height: 75px;
+    float: left;
+}
+
+.Gallery{
+    margin: 10px;
+    float: left;
+    border: 1px solid black;
+    border-top: 0px;
+    width: 400px;
+}
+
+.Gallery:hover{
+    border: 10px solid rgb(89, 0, 255);
+    margin: 10px;
+}
+
+.Gallery img{
+    width: 100%;
+    height: auto;
+}
+
+.desc{
+    text-align: center;
+    padding: 15px;
+}
