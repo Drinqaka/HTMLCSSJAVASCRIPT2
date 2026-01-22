@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>JS Button Challenge</title>
+<link rel="stylesheet" href="style.css">
+</head>
+<body>
+<p id="text">This is sentence one.</p>
+<button id="myButton">Click me</button>
+<button id="colorbutton">Change color</button>
+<br>
+<br>
+<br>
+<a href="index2.html">Index</a>
+<script>
+// JavaScript goes here
+
+// 1. Get the elements
+const button = document.getElementById('myButton');
+const paragraph = document.getElementById('text');
+const colorbutton = document.getElementById('colorbutton')
+
+
+// 2. Add click event
+button.addEventListener('click', function() {
+if(paragraph.textContent === 'This is sentence one.') {
+paragraph.textContent = 'This is sentence two.';
+} else {
+paragraph.textContent = 'This is sentence one.';
+}
+})
+colorbutton.addEventListener('click' , function() {
+    if(paragraph.style.backgroundColor === 'yellow') {
+        paragraph.style.backgroundColor = 'white';
+    } else {
+        paragraph.style.backgroundColor = 'yellow';
+    }
+});
+</script>
+</body>
+</html>

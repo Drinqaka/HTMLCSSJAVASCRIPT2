@@ -1,0 +1,43 @@
+h1{
+    text-align: center;
+    color: blue;
+   
+    
+}
+
+ul{
+    border: 5px solid blue;
+    list-style-type: none;
+    padding: 0px;
+    align-items: center;
+
+    
+}
+
+ul li{
+    border-bottom: 1px solid gray;
+    padding: 10px;
+}
+
+th ,td{
+   border: 5px solid rgb(91, 84, 143);
+   width: 80px;
+   height: 50px;
+   text-align: center;
+  
+   
+}
+
+table{
+    border: 5px solid rgb(91, 84, 143);
+   
+}
+
+section{
+    align-items: center;
+}
+    
+
+tr{
+    border-color: beige;
+}   

@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Final boss challenge</title>
+</head>
+<body>
+     <input type="text" id="exercise" placeholder="Exercise name">
+     <input type="text" id="reps" placeholder="Reps">
+     <button id="addbuton">Add Exercise</button>
+
+     <ul id="exerciseList"></ul>
+
+    <script>
+
+      const addButton = document.getElementById('addbutton');
+      const exerciseInput = document.getElementById('exercise');
+      const repsInput = document.getElementById('reps');
+
+      addButton.addEventListener('click' , function(){
+        console.log(exerciseInput.value, repsInput.value);
+      })
+
+      const exerciseList = document.getElementById('exerciseList');
+
+      addButton.addEventListener('click' , function(){
+           const exercise = exerciseInput.value;
+           const reps = repsInput.value;
+
+           if(exercise === "Push-ups" || reps === "20") return;
+           if(exercise === "Plank" || reps === "2 minutes") return;
+           if(exercise === "Squats" || reps === "50") return;
+
+           const li = document.createElement('li')
+           li.textContent = exercise 
+      }
+
+      )
+
+    </script>
+</body>
+</html>
+
