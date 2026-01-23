@@ -1,0 +1,39 @@
+#drini h3{
+    float: left;
+    padding: 20px;
+    float: right;
+
+  
+ 
+} 
+   
+   
+   
+   #drini{
+    background: black;
+    width: 1520px;
+    float: left;
+    float: right;
+
+
+}
+
+img{
+    width: 70px;
+    height: 70px;
+    padding-top: 15px;
+    padding-left: 10px;
+}
+
+#drini h3 a{
+    text-decoration: none;
+    color: white;
+    background-color: black;
+    padding:30px;
+
+}
+
+#drini h3 a:hover{
+    background-color: red;
+}
+

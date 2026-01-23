@@ -1,0 +1,22 @@
+#drini{
+    display: flex;
+    background-color: black;
+    justify-content: flex-end;
+}
+
+#drini div{
+    background-color: black;
+    padding: 30px;
+}
+
+#drini div a{
+    text-decoration: none;
+    color: white;
+    font-size: larger;
+}
+
+
+#drini div a:hover{
+    background-color: red;
+    padding: 20px;
+}
