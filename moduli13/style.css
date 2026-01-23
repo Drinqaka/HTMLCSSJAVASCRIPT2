@@ -1,0 +1,28 @@
+ul{
+    list-style-type: none;
+    padding: 15px 25px;
+    background-color: burlywood;
+    border-left: 5px solid green;  
+}
+
+ul li{
+    padding: 8px;
+    border-bottom: 1px dashed green;
+}
+
+ol{
+    list-style-type: upper-roman;
+    background-color: blue;
+}
+
+ol li{
+    background-color: azure;
+    padding: 10px;
+    border-bottom: 1px dashed gray;
+    border-top: 1px dashed gray;   
+}
+
+td,th{
+    border: 2px solid blue;
+    padding: 10px;
+}
