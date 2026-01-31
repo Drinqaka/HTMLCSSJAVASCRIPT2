@@ -13,10 +13,19 @@
     text-decoration: none;
     color: white;
     font-size: larger;
+    padding: 30px;
+    padding-left: 20px;
+    padding-right: 20px;
 }
 
 
 #drini div a:hover{
     background-color: red;
-    padding: 20px;
+    padding: 30px;
+    padding-left: 20px;
+    padding-right: 20px;
+}
+
+img{
+    position: relative;
 }
