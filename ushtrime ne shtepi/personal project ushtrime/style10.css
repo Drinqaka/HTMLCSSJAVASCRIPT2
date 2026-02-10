@@ -1,0 +1,15 @@
+#indexheader{
+    display: flex;
+    background-color: #1a1a1a;
+
+}
+
+.indexa{
+    text-decoration: none;
+    color: #ccc;
+    padding: 20px;
+}
+
+nav{
+    align-self: flex-end;
+}
