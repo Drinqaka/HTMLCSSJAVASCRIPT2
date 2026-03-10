@@ -46,7 +46,6 @@ f/=4;
 console.log(f);
 
 var v = 100;
-
 var w = 50;
 
 console.log(v==w);
@@ -55,13 +54,28 @@ console.log(v>w);
 console.log(v<w);
 
 var emri = "Drin"
-
 var mbiemri = "Qaka"
-
 var fullName = emri + " " + mbiemri;
 
 console.log(fullName);
 
 console.log(`hello from ${emri}`);
-
 console.log('hello from' + ' ' + emri);
+console.log('Dard' + 'ania');
+
+var age = 24;
+
+console.log(age >= 18 && age <= 36);
+console.log(age >= 18 && age <= 20);
+console.log(age >= 30 && age <= 15);
+
+var drini = 5;
+
+console.log(drini > 4 || drini < 7);
+console.log(drini > 4 || drini < 4);
+console.log(drini > 6 || drini < 3);
+
+var let = 10;
+var hi = 12;
+
+console.log(!(let == hi));
