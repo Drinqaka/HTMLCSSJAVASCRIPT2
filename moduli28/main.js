@@ -39,4 +39,21 @@ button4.onmousewheel = function(){
 
  v_button.onclick = function(){
     v_text.style.color = 'red'
+    v_text.style.backgroundColor = 'gray'
+    v_text.style.textAlign = 'center'
+    v_text.style.fontSize = '100px'
+ }
+
+ var button5 = document.getElementById("btn7");
+ var text2 = document.getElementById("txt2");
+
+  button5.onclick = function(){
+    text2.style.cssText = "color:red; font-size:100px; background-color:green; font-family:fantasy; text-align: center;" 
+ }
+
+ var ifundit = document.getElementById('ifundit')
+ var pgg = document.getElementById('pg')
+
+ ifundit.onclick = function(){
+    pgg.setAttribute("class" , "paragraph")
  }
