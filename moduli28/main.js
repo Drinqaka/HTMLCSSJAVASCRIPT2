@@ -57,3 +57,11 @@ button4.onmousewheel = function(){
  ifundit.onclick = function(){
     pgg.setAttribute("class" , "paragraph")
  }
+
+
+ var circlebutton = document.getElementById('press')
+ var circletext = document.getElementById('circle')
+
+    circlebutton.onclick = function(){
+    circletext.style.csstext = "background-color:red; color:red; visibility: visible;"
+}
