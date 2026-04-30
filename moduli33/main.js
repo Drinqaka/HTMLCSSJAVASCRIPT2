@@ -9,7 +9,7 @@ function validation(){
 
     var age_regex = /^[0-9]+$/;
 
-    if(!(age.match(age_regex)) || !(age.match(age_regex)) || city == ""){
+    if(!(name.match(name_regex)) || !(age.match(age_regex)) || city == ""){
        
         if(!(name.match(name_regex))){
            document.getElementById("name_error").style.visibility = "visible";
