@@ -1,0 +1,16 @@
+ul#select li{
+    background-color: lightgray;
+    margin-bottom: 15px;
+    padding: 20px;
+    color: white;
+    list-style-type: none;
+}
+
+ul#sort li{
+    background-color: blue;
+    margin-bottom: 15px;
+    padding: 20px;
+    color: white;
+    list-style-type: none;
+
+}
